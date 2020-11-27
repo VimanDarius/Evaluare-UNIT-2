@@ -1,0 +1,21 @@
+altceva
+{
+   margin-top: 70px;
+   margin-bottom: 40px;
+   margin-right: 80px;
+   margin-left: 60px;
+   
+   }
+table, th, td 
+   {
+   border: 1px solid #b3b3ff;
+   }
+.continut{
+	border-style: solid;
+    border-color: red;
+    margin-top:10px;
+	margin-bottom: auto;
+	width:600px ;
+	padding:30px 60px;
+    background: lightblue;					
+}

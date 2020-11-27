@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+  <link rel="stylesheet" href="stiluri.css">
+  <script>
+
+var i = 0; 			
+var images = [];	
+var time = 3000;	
+	 
+
+images[0] = "CPU.png";
+images[1] = "Disk.png";
+images[2] = "Network.png";
+
+function changeImg(){
+	document.slide.src = images[i];
+
+	
+	if(i < images.length - 1){
+	  
+	  i++; 
+	} else { 
+		
+		i = 0;
+	}
+
+	
+	setTimeout("changeImg()", time);
+}
+
+window.onload=changeImg;
+</script>
+</head>
+
+
+<h1  span style="border: 5px solid black; background-color:#ffa64d; color:#999999" > Viman Darius-Marcian </span></h1>
+<h3><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> dariusvimann@gmail.com </a></h3>
+<br>
+<p style="font-size:120%; color:blue"><i><u>Specificatii tehnice ale statiei principale de lucru</i></u></p>
+<table style="width:auto">
+  <tr>
+    <th>Denumire componenta</th>
+    <th>Parametrii</th>
+    <th>Producator</th>
+  </tr>
+  <tr>
+    <td>Procesor Intel® Core™ i5-9300H Processor</td>
+    <td>4.10 GHz,8 MB Intel® Smart Cache,Intel® UHD Graphics 630</td>
+    <td>INTEL</td>
+  </tr>
+  <tr>
+    <td>Placa video GIGABYTE GeForce GTX 1050 D5 2GB GDDR5 128-bit</td>
+    <td>Frecventa GPU mod OC 1379 MHz, Frecventa GPU Boost mod OC 1493 MHz, GDDR5</td>
+    <td>NVIDIA</td>
+  </tr>
+  <tr>
+    <td>Placă de bază ATX pentru gaming Intel® Z490 (LGA 1200) cu M.2</td>
+    <td>LAN Intel® 1Gb, HDMI, DisplayPort, SATA 6 Gbps, porturi USB 3.2 Gen 2, suport Thunderbolt™ 3 și iluminare RGB Aura Sync</td>
+    <td>TUF GAMING</td>
+  </tr>
+</table>
+
+
+  <div class="continut">
+<p style="font-size:120%; color:blue"><i><u>Structura retelei personale si accesul la internet</i></u></p>
+<img src="Screenshot_1.png" style="width:300px;height:200px;">
+
+
+<p style="font-size:120%; color:blue"><i><u>Caracteristicile conexiunii la retea</i></u></p>
+<ol>
+  <li>Adresa MAC: A8-5E-45-BB-6E-54</li>
+  <li>Adresa IP: 192.168.1.4</li>
+  <li>Debit la download: 286.23</li>
+  <li>Debit la upload: 152.40</li>
+</ol>
+
+</div>
+
+<p style="font-size:120%; color:blue"><u><i>Utlizarea resurselor</i></u></p>
+
+  <img name="slide" width="auto" height="auto"/>
+  
+</body>
+</html>	
